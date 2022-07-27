@@ -24,7 +24,8 @@ on:
 env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   TZ: Asia/Shanghai
-
+  UPLOAD_WERANSFER: true
+  UPLOAD_RELEASE: true
 jobs:
   build:
     runs-on: Ubuntu-20.04
